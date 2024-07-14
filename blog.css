@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f5f5f5;
+    height: 6vh;
+    font-family: "Cairo", sans-serif;
+    display: flex;
+    align-items: center
+}
+
+#email {
+    font-size: 14px;
+    padding-left: 230px;
+    gap: 15px;
+}
+
+header svg {
+    width: 12px;
+    height: 12px;
+}
+
+#free {
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+#svgfacebook {
+    margin-left: 390px;
+
+}
+
+#svgtwitter {
+    margin-left: 25px;
+}
+
+#svglinkedin {
+    margin-left: 25px
+}
+
+#svgpinterest {
+    margin-left: 25px
+}
+
+#svguser {
+    margin-left: 20px;
+}
+
+#svgbag {
+    height: 17px;
+    width: 17px;
+    margin-top: 30px;
+
+
+}
+
+#barra {
+    margin-left: 35px;
+    color: #bbbbbb;
+    font-weight: 100px;
+    height: 35px
+}
+
+#barrinha {
+    color: #bbbbbb;
+    padding-left: 17px;
+    height: 35px
+}
+
+#bandeira {
+    padding-left: 17px;
+}
+
+#english {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#barrinha2 {
+    padding-left: 35px;
+    color: #bbbbbb;
+    height: 35px;
+}
+
+#textlogin {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+p {
+    display: inline-block;
+}
+
+
+#gridogani {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 2fr 1fr 0.7fr;
+    grid-template-rows: 80px;
+}
+
+
+#logo {
+    margin-top: 20px;
+
+}
+
+#gridogani ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    font-family: "Cairo";
+    font-size: 14px;
+    color: #1c1c1c;
+    margin-top: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#gridogani a:hover{
+    color: #7fad39;
+}
+
+#homee {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#blogg {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#shopp {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#contactt {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#pagess {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#comprassvg svg {
+ 
+    padding-right: 40px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#comprassvg p {
+    display: flex;
+    padding-left: 185px;
+    font-size: 14px;
+    font-family: "Cairo";
+    padding-top: 26px;
+}
+
+span {
+    font-weight: 700;
+}
+
+#checkbox {
+    display: none;
+}
+
+#menu{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#menu label {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    background-color: #7fad39;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+}
+
+#menu>div{
+    position: relative;
+}
+
+#menu>div svg{
+    width: 15px;
+}
+
+#menu path{
+    fill: white;
+}
+
+.dropdown2{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 1s;
+    height: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dropdown2>p{
+    font-family: 'Cairo', sans-serif;
+}
+
+#checkbox:checked~.dropdown2{
+    height: 440px;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 2fr 1fr 0.7fr;
+    grid-template-rows: 80px;
+}
+
+
+#checkbox {
+    display: none;
+}
+
+#menu{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#menu label {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    background-color: #7fad39;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+}
+
+#menu>div{
+    position: relative;
+}
+
+#menu>div svg{
+    width: 15px;
+}
+
+#menu path{
+    fill: white;
+}
+
+.dropdown2{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 1s;
+    height: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dropdown2>p{
+    font-family: 'Cairo', sans-serif;
+}
+
+#checkbox:checked~.dropdown2{
+    height: 440px;
+}
+
+
+#grid3 {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 160px;
+}
+
+#grid3 div {
+    border: solid 2px;
+    background-image: url(breadcrumb.jpg);
+    width: 100%;
+}
+
+#organi {
+    font-family: "Cairo";
+    font-size: 46px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#organi h5 {
+    font-size: 14px;
+    font-weight: 400;
+}

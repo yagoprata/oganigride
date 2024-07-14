@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f5f5f5;
+    height: 6vh;
+    font-family: "Cairo", sans-serif;
+    display: flex;
+    align-items: center
+}
+
+#email {
+    font-size: 14px;
+    padding-left: 230px;
+    gap: 15px;
+}
+
+header svg {
+    width: 12px;
+    height: 12px;
+}
+
+#free {
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+#svgfacebook {
+    margin-left: 390px;
+
+}
+
+#svgtwitter {
+    margin-left: 25px;
+}
+
+#svglinkedin {
+    margin-left: 25px
+}
+
+#svgpinterest {
+    margin-left: 25px
+}
+
+#svguser {
+    margin-left: 20px;
+}
+
+#svgbag {
+    height: 17px;
+    width: 17px;
+    margin-top: 30px;
+
+
+}
+
+#barra {
+    margin-left: 35px;
+    color: #bbbbbb;
+    font-weight: 100px;
+    height: 35px
+}
+
+#barrinha {
+    color: #bbbbbb;
+    padding-left: 17px;
+    height: 35px
+}
+
+#bandeira {
+    padding-left: 17px;
+}
+
+#english {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#barrinha2 {
+    padding-left: 35px;
+    color: #bbbbbb;
+    height: 35px;
+}
+
+#textlogin {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+p {
+    display: inline-block;
+}
+
+
+#gridogani {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 2fr 1fr 0.7fr;
+    grid-template-rows: 80px;
+}
+
+
+#logo {
+    margin-top: 20px;
+
+}
+
+#gridogani ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    font-family: "Cairo";
+    font-size: 14px;
+    color: #1c1c1c;
+    margin-top: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#gridogani a:hover{
+    color: #7fad39;
+}
+
+#homee {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#blogg {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#shopp {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#contactt {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#pagess {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+#comprassvg svg {
+ 
+    padding-right: 40px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#comprassvg p {
+    display: flex;
+    padding-left: 185px;
+    font-size: 14px;
+    font-family: "Cairo";
+    padding-top: 26px;
+}
+
+span {
+    font-weight: 700;
+}
+
+
+#grid2 {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 2fr 1fr 0.7fr;
+    grid-template-rows: 80px;
+}
+
+
+#checkbox {
+    display: none;
+}
+
+#menu{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#menu label {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    background-color: #7fad39;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+}
+
+#menu>div{
+    position: relative;
+}
+
+#menu>div svg{
+    width: 15px;
+}
+
+#menu path{
+    fill: white;
+}
+
+.dropdown2{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 1s;
+    height: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dropdown2>p{
+    font-family: 'Cairo', sans-serif;
+}
+
+#checkbox:checked~.dropdown2{
+    height: 440px;
+}
+
+#grid3 {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 160px;
+}
+
+#grid3 div {
+    border: solid 2px;
+    background-image: url(breadcrumb.jpg);
+    width: 100%;
+}
+
+#organi {
+    font-family: "Cairo";
+    font-size: 46px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#homeshop {
+    font-size: 16px;
+    padding-bottom: 35px;
+    font-weight: 400;
+}
+
+#grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr;
+    grid-template-rows: 250px;
+    position: relative;
+}
+
+#grid4 div {
+    justify-items: center;
+}
+
+
+
+#grid4 svg {
+    height: 35px;
+    fill: #7fad39;
+    position: absolute;
+    left: 127px;
+    top: 70px;
+}
+
+#localsvg {
+    grid-column: 3;
+}
+
+#telefonesvg {
+    grid-column: 2;
+}
+
+#clocksvg {
+    grid-column: 4;
+}
+
+#emailsvg {
+    grid-column: 5;
+}
+
+.textsvg {
+    text-align: center;
+    font-family: "Cairo";
+    font-size: 24px;
+    color: #1c1c1c;
+    padding-top: 115px;
+}
+
+.subtext-svg {
+    font-family: "Cairo";
+    color: #666;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#grid6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+    padding-top: 50px;
+}
+
+
+#grid6 iframe {
+    width: 100%;
+}
+
+#parteforms {
+    height: 550px;
+}
+
+#parteforms>h2{
+    font-family: "Cairo";
+    font-size: 36px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#label-name {
+    padding-left: 230px;
+    padding-top: 55px;
+    position: relative;
+}
+
+#label-name input {
+    width: 40%;
+    height: 50px;
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+#label-name input::placeholder{
+    position: absolute;
+    left: 15px;
+}
+
+#label-email {
+    padding-left: 760px;
+    position: relative;
+    display: flex;
+}
+
+#label-email input {
+    width: 40%;
+    height: 50px;
+    font-size: 16px;
+    color: #6f6f6f;
+    position: absolute;
+    bottom: 0px;
+}
+
+#label-email input::placeholder{
+    position: absolute;
+    left: 15px;
+}
+
+#label-message {
+    padding-left: 230px;
+    padding-top: 30px;
+    position: relative;
+}
+
+#label-message input{
+    width: 75%;
+    height: 180px;
+    font-size: 16px;
+    color: #6f6f6f;
+    position: absolute;
+}
+
+#label-submit button{
+    background-color: #7fad39;
+    font-family: "Cairo";
+    margin-top: 220px;
+    margin-left: 650px;
+    padding: 9px 40px 9px 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr 1fr 1fr 2fr 0.5fr;
+    grid-template-rows: 65px 200px 150px 50px;
+    background-color: #F3F6FA;
+
+ }
+
+ #ogani {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 23px;
+ }
+
+ #ogani ul {
+    list-style: none;
+    font-size: 16px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    padding-top: 20px;
+    line-height: 35px;
+ }
+
+ #usefullink  {
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 50px;
+
+ }
+
+ #usefullink ul {
+    list-style: none;
+    font-size: 14px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    line-height: 35px;
+ }
+
+#especial {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#who ul {
+    list-style: none;
+    font-size: 14px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    line-height: 35px;
+}
+
+#who {
+    grid-column: 4;
+    grid-row: 2;
+    padding-top: 36px;
+}
+
+#join {
+    grid-row: 2;
+    grid-column: 5;
+}
+
+#join h4 {
+   
+    font-size: 16px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    padding-left: 33px;
+}
+
+#join h5 {
+    font-size: 14px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    padding-left: 33px;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+#formemail {
+    grid-row: 2;
+    grid-column: 5;
+    display: flex;
+}
+
+#enteremail {
+    margin-top: 100px;
+    margin-left: 26px;
+}
+
+#formemail input::placeholder{
+    padding-left: 15px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+#formemail button{
+    margin-top: 100px;
+}
+
+#formemail input {
+    border: 1px solid #ededed;
+    font-family: 'Cairo', sans-serif;
+    width: 200%;
+    height: 46px;
+}
+
+#formemail button{
+    padding-inline: 20px;
+    background-color: #7fad39;
+    color: white;
+    font-weight: 850;
+    font-size: 12px;
+    border: none;
+    height: 45px;
+    letter-spacing: 0.25px;
+}
+
+#subscribe button {
+    margin-left: 100px;
+}
+
+#organi h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+

@@ -1,0 +1,991 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f5f5f5;
+    height: 6vh;
+    font-family: "Cairo", sans-serif;
+    display: flex;
+    align-items: center
+}
+
+.verde{
+    height: 4px;
+    width: 7%;
+    background-color: #7fad39;
+    border: none;
+    margin-left: 700px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr 1.3fr 1.3fr 1.3fr 0.7fr;
+    grid-template-rows: 80px 50px 431px 270px;
+    column-gap: 30px;
+    row-gap: 14px;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1.4fr 1.4fr 1.4fr 1fr;
+    grid-template-rows: 270px 270px;
+    padding-bottom: 170px;
+    row-gap: 120px;
+    column-gap: 30px;
+}
+
+#grid3 {
+    display: grid;
+    grid-template-columns: 0.5fr 1.3fr 1.3fr 0.5fr;
+    grid-template-rows: 250px;
+    column-gap: 30px;
+}
+
+#grid4 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 125px 125px 125px;
+    padding-top: 25px;
+    
+}
+
+#grid4 h6 {
+    font-size: 16px;
+    font-family: "Cairo";
+    font-weight: 400;
+    column-gap: 20px;
+}
+
+#grid5 {
+    display: grid;
+    grid-template-columns: 0.5fr 1.3fr 1.3fr 1.3fr 0.5fr;
+    grid-template-rows: 250px 200px;
+    padding-top: 50px;
+    column-gap: 30px;
+    padding-bottom: 40px;
+}
+
+
+
+#main div {
+ 
+    position: relative;
+}
+
+#logo {
+    grid-column: 2;
+}
+
+#nav {
+    grid-column: 3/6;
+}
+
+#menu {
+    grid-row: 2/4;
+    grid-column: 2;
+}
+
+#busca {
+    grid-column: 3/6;
+    grid-row: 2;
+    border: #6f6f6f;
+}
+
+#allcategories {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+    border:none ;
+
+}
+
+#busca>input::placeholder{
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+    color: #b2b2b2;
+}
+
+#busca button{
+    height: 100%;
+    padding-inline: 20px;
+    background-color: #7fad39;
+    text-decoration: none;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    border: none;
+    border: none;
+}
+
+#busca input{
+    width: 100%;
+    padding-left: 30px;
+}
+
+#busca ul {
+    list-style: none;
+}
+
+
+#banner {
+    grid-row: 3;
+    grid-column: 3/6;
+}
+
+
+
+#prod1 {
+    grid-row: 4;
+    grid-column: 2;
+    background-image: url(feature-1.jpg);
+    font-family: "Cairo";
+    text-align: center;
+    padding-top: 225px;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+}
+
+#prod1 button {
+    font-family: "Cairo";
+    text-align: center;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: white;
+    width: 80%;
+    border: none;
+}
+
+#prod2 {
+    grid-row: 4;
+    grid-column: 3;
+    background-image: url(cat-1.jpg);
+    font-family: "Cairo";
+    text-align: center;
+    padding-top: 225px;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+
+
+}
+
+#prod2 button {
+    font-family: "Cairo";
+    text-align: center;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: white;
+    width: 80%;
+    border: none;
+}
+
+
+#prod3 {
+    grid-row: 4;
+    grid-column: 4;
+    background-image: url(cat-2.jpg);
+}
+
+
+#prod3 button {
+    font-family: "Cairo";
+    text-align: center;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: white;
+    position: relative;
+    top: 224px;
+    left: 10%;
+    width: 80%;
+    align-items: center;
+    border: none;
+
+}
+
+#shopnow {
+    border: none;
+}
+
+#prod4 {
+    grid-row: 4;
+    grid-column: 5;
+    background-image: url(cat-4.jpg);
+    font-family: "Cairo";
+    text-align: center;
+    padding-top: 225px;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+}
+
+#prod4 button {
+    font-family: "Cairo";
+    text-align: center;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: white;
+    width: 80%;
+    border: none;
+}
+
+#item {
+    display: inline;
+}
+
+#compras {
+    margin-left: 550px;
+    margin-bottom: 150px;
+    gap: 20px;
+}
+
+#compras p{
+    font-family: "Cairo";
+}
+
+#compras span {
+    font-weight: 700;
+}
+
+#email {
+    font-size: 14px;
+    padding-left: 230px;
+    gap: 15px;
+}
+
+header svg {
+    width: 12px;
+    height: 12px;
+}
+
+p {
+    display: inline-block;
+}
+
+#free {
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+#svgfacebook {
+    margin-left: 390px;
+
+}
+
+#svgtwitter {
+    margin-left: 25px;
+}
+
+#svglinkedin {
+    margin-left: 25px
+}
+
+#svgpinterest {
+    margin-left: 25px
+}
+
+#svguser {
+    margin-left: 20px;
+}
+
+#svgbag {
+    height: 17px;
+    width: 17px;
+    margin-top: 30px;
+
+
+}
+
+#barra {
+    margin-left: 35px;
+    color: #bbbbbb;
+    font-weight: 100px;
+    height: 35px
+}
+
+#imglogo {
+    margin-top: 11px;
+}
+
+#nav li {
+    list-style: none;
+    font-size: 14px;
+    font-family: "Cairo";
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    margin-top: 20px;
+
+}
+
+#nav>ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+#homee {
+    color: #1c1c1c;
+}
+
+#shopp {
+    color: #1c1c1c;
+}
+
+#blogg {
+    color: #1c1c1c;
+}
+
+#contactt {
+    color: #1c1c1c;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu {
+    text-align: center;
+}
+
+#nav a:hover{
+    color: #7fad39;
+}
+
+
+#nav-pages {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    background-color: #252525;
+    width: 350%;
+    color: white;
+    opacity: 0;
+    z-index: -99;
+    top: 50px;
+    transition: 0.5s;
+
+}
+
+#pages {
+    position: relative;
+}
+
+#pages:hover #nav-pages {
+    opacity: 1;
+    z-index: 99;
+    top: 28px;
+}
+
+
+
+#nav-pages li {
+    font-weight: 400;
+}
+
+#pages li {
+    line-height: 5px;
+    padding-left: 15px;
+}
+
+
+
+#fruitfresh {
+    font-size: 14px;
+    font-family: "Cairo";
+    color: #7fad39;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+}
+
+#banner {
+    background-image: url(banner.jpg);
+    padding-left: 75px;
+    padding-top: 110px;
+}
+
+#vegetable {
+    font-size: 46px;
+    font-family: "Cairo";
+    font-weight: 700;
+    color: #252525;
+    line-height: 52px;
+}
+
+#banner p {
+    font-size: 16px;
+    font-family: "Cairo";
+    color: #6f6f6f;
+}
+
+#shopnow {
+    background-color: #7fad39;
+    color: white;
+    font-family: "Cairo";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    height: 42px;
+    width: 140px;
+}
+
+#coracao {
+    height: 17px;
+    width: 17px;
+    margin-left: 170px;
+    margin-top: 30px;
+
+}
+
+#sacola {
+    height: 17px;
+    width: 17px;
+    margin-left: 230px;
+    margin-top: 30px;
+
+
+}
+
+#busca {
+    font-size: 16px;
+    font-family: "Cairo";
+    font-weight: 700;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+
+#barrinha {
+    color: #bbbbbb;
+    padding-left: 17px;
+    height: 35px
+}
+
+#bandeira {
+    padding-left: 17px;
+}
+
+#english {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#barrinha2 {
+    padding-left: 35px;
+    color: #bbbbbb;
+    height: 35px;
+}
+
+#textlogin {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#svgbars {
+    height: 17px;
+    fill: white;
+    margin-right: 10px;
+}
+
+#featured {
+    grid-row: 4;
+    grid-column: 2/6;
+}
+
+#featured>h1 {
+    font-family: "Cairo";
+    text-align: center;
+    color: #1c1c1c;
+    font-size: 36px;
+    position: relative;
+    padding-top: 20px;
+}
+
+
+
+#featured ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-family: "Cairo";
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
+}
+
+#carne1 {
+    background-image: url(feature-1.jpg);
+}
+
+#carne1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+}
+
+#carne1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#banana1 {
+
+    background-image: url(feature-2.jpg);
+}
+
+#banana1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+}
+
+#banana1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#goiaba1 {
+
+    background-image: url(feature-3.jpg);
+}
+
+#goiaba1 ul {
+
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+
+}
+
+#goiaba1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#melancia1 {
+
+    background-image: url(feature-4.jpg);
+}
+
+#melancia1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+}
+
+#melancia1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#manga1 {
+
+    background-image: url(feature-5.jpg);
+}
+
+#manga1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+}
+
+#manga1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#maçã1 {
+
+    background-image: url(feature-8.jpg);
+}
+
+#maçã1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+
+}
+
+#maçã1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#uva1 {
+
+    background-image: url(feature-7.jpg);
+}
+
+#uva1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+}
+
+#uva1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#hamburguer1 {
+
+    background-image: url(feature-6.jpg);
+}
+
+#hamburguer1 ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    position: relative;
+    top: 250px;
+    padding-left: 75px;
+    padding-top: 40px;
+    font-family: "Cairo";
+    font-size: 16px;
+    color: #252525;
+}
+
+#hamburguer1 h1 {
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 700;
+    padding-left:110px;
+    padding-top: 250px;
+}
+
+#listalastest ul {
+    display: flex;
+    gap: 235px;
+    list-style: none;
+    font-family: "Cairo", sans-serif;
+    font-size: 24px;
+    color: #1c1c1c;
+    font-weight: 700;
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+
+
+
+div h6 {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#fromtheblog{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+    color: #1c1c1c;
+    font-weight: 700;
+    font-family: "Cairo";
+}
+
+#textcooking svg {
+    height: 20px;
+    margin-top: 20px;
+}
+
+#text6ways svg {
+    height: 20px;
+    margin-top: 20px;
+}
+
+
+#textvisit svg {
+    height: 20px;
+    margin-top: 20px;
+}
+
+#grid5 ul {
+    list-style: none;
+    font-family: "Cairo";
+    display: flex;
+    gap: 15px;
+}
+
+.may {
+    padding-top: 16px;
+    color: #b2b2b2;
+}
+
+#grid5 i {
+    color: #b2b2b2;
+    font-family: "Cairo";
+}
+
+#grid5 h5 {
+    font-size: 20px;
+    color: #111111;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+}
+
+#grid5 h4 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    color: #6f6f6f;
+    font-weight: 400;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr 1fr 1fr 2fr 0.5fr;
+    grid-template-rows: 65px 200px 150px 50px;
+    background-color: #F3F6FA;
+ }
+
+ #ogani {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 23px;
+ }
+
+ #ogani ul {
+    list-style: none;
+    font-size: 16px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    padding-top: 20px;
+    line-height: 35px;
+ }
+
+ #usefullink  {
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 50px;
+
+ }
+
+ #usefullink ul {
+    list-style: none;
+    font-size: 14px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    line-height: 35px;
+ }
+
+#especial {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#who ul {
+    list-style: none;
+    font-size: 14px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    line-height: 35px;
+}
+
+#who {
+    grid-column: 4;
+    grid-row: 2;
+    padding-top: 36px;
+}
+
+#join {
+    grid-row: 2;
+    grid-column: 5;
+}
+
+#join h4 {
+   
+    font-size: 16px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    padding-left: 33px;
+}
+
+#join h5 {
+    font-size: 14px;
+    font-family: "Cairo";
+    color: #1c1c1c;
+    padding-left: 33px;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+#formemail {
+    grid-row: 2;
+    grid-column: 5;
+    display: flex;
+}
+
+#enteremail {
+    margin-top: 100px;
+    margin-left: 26px;
+}
+
+#formemail input::placeholder{
+    padding-left: 15px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+#formemail button{
+    margin-top: 100px;
+}
+
+#formemail input {
+    border: 1px solid #ededed;
+    font-family: 'Cairo', sans-serif;
+    width: 200%;
+    height: 46px;
+}
+
+#formemail button{
+    padding-inline: 20px;
+    background-color: #7fad39;
+    color: white;
+    font-weight: 850;
+    font-size: 12px;
+    border: none;
+    height: 45px;
+    letter-spacing: 0.25px;
+}
+
+#subscribe button {
+    margin-left: 100px;
+}
+
+#grid5 h6 {
+    padding-bottom: 30px;
+}
+
+#alldepartments svg {
+    height: 20px;
+    margin-right: 190px;
+    margin-top: 6px;
+}
+
+#menu path {
+    fill: white;
+}
+
+#menu label {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    background-color: #7fad39;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    height: 50px;
+}
+
+#telefone svg {
+    grid-column: 5;
+    height: 12px;
+    margin-left: 710px;
+    width: 50px;
+    height: 50px;
+    padding: 18px;
+    background: #ddd;
+    border-radius: 50%;
+    fill: #7fad39;
+}
+
+#compras {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#nav li:hover {
+    color: #7fad39;
+}
